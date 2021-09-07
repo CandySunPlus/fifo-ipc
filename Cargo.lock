@@ -12,6 +12,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "fifo-ipc"
+version = "0.1.0"
+dependencies = [
+ "bincode",
+ "libc",
+ "serde",
+]
+
+[[package]]
 name = "libc"
 version = "0.2.101"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -53,15 +62,6 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
-]
-
-[[package]]
-name = "study"
-version = "0.1.0"
-dependencies = [
- "bincode",
- "libc",
- "serde",
 ]
 
 [[package]]
